@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Delong Enterprises Travel Expenses Report</title>
+<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+
+<h1>Contact Us</h1>
+<fieldset>
+    <legend><strong>Fill in below:</strong></legend>
+<form name="travel" action="mailto:travel.egypt@hotmail.com" method="post" enctype="text/plain">
+   <table id="cust-detail-table">
+	<tr>
+	<td>
+        <label>First Name:</label></td><td>
+	<input type="text" name="first name" id="fname" size="15" class="input-text">
+ 	</td>
+        </tr>
+        <tr>        
+	<td>
+        <label for="lname">Last Name:</label></td><td>
+        <input type="text" name="last name" id="lname" size="15" class="input-text">
+        </td>
+	</tr>
+ 	<tr>
+	<td >
+        <label>Password:</label></td><td>
+	<input type="password" name="password" id="pchar" size="15" maxlength="10" class="input-text">
+        </td>
+	</tr>
+	<tr>
+        <td><label for="country">Department:</label></td><td>
+            <select id="country" name="contry">
+		<option value="cou">...COUNTRY...</option>
+		<option value="">China</option>
+		<option value="">Morocco</option>
+		<option value="">USA</option>		
+	     </select>	
+       </td>
+	</tr>
+	<tr>
+        <td>
+        <label for="desc">Message:</label></label></td><td>
+	<textarea name="desc" id="desc" rows="4" cols="50">Fill In Here</textarea>
+        </td>
+	</tr>
+	<tr> 
+        <td>
+        <label for="email">Email: </label></td><td>
+        <input type="text" id="email" name="cust_email" class="input-text">
+	</td>
+        </tr>		    
+	<tr>		   
+        <td>
+        <label>Gender:</label>
+        </td>
+	<td>
+         <label for="gender">Male</label>
+    	 <input type="radio" id="gender" name="gender" class="radio-el">
+         <label for="gender">Female</label>
+    	 <input type="radio" id="gender" name="gender" class="radio-el">    
+    	</td>
+	</tr>
+	<tr>
+		<td><input type="reset" value="Reset" class="btn-form"></td>
+		<td><input type="submit" value="Submit" class="btn-form"></td>
+	</tr>
+     </table>
+   </form>	
+</fieldset>
+</div>
+</body>
+</html>

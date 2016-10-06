@@ -1,0 +1,329 @@
+/**
+* File: stylesheet.css
+* StartDate: 10.04.2016
+* Developer: Mariam Saleh
+* Resources:
+             images: {
+                       "http://www.hdwallpapersnews.com/girls-fitness-free-desktop-wallpaper.html",
+                       http://wallpaperswide.com/fitness-desktop-wallpapers.html
+            }
+
+            background color: {
+                          "http://uigradients.com/#",
+          }
+*/
+
+html,body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+ /** background-color: rgb(255,240,245); **/
+  font-family: "serif", sans-serif, helvetica;
+}
+
+
+/**
+** Site container **
+**/
+
+#container {
+   /** background-color: red; **/
+   width: 100%;
+   margin: 0 auto;
+   padding: 0;
+   max-width: 1450px;
+   min-width: 1255px;
+   position: relative;
+}
+
+.max-vw-container {
+   height: inherit;
+   max-height: 924px;
+   background-color: green;
+   background: url("../images/11.jpeg") no-repeat center center;
+   background-size: cover;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   -ms-background-size: cover;
+}
+
+.max-h-containter { height: 828px; }
+.mid-h-containter { height: 564px;}
+.mid-2x-h-containter { height: 728px;}
+.mid-2x-h-container,
+.mid-h-container,
+.max-h-container {
+  position: relative;
+}
+
+
+
+.max-width {
+  width: inherit;
+}
+
+.max-height {
+  height: inherit;
+}
+
+.fade-bg-black {
+  background-color: rgba(1,6,3,.5);
+}
+
+
+
+/***
+*** Top banner section ***
+**/
+
+
+#top-banner {
+  height: 200px;
+/**  background-color: red; **/
+}
+
+#mid-banner {
+  height: 628px;
+/**  background-color: blue; **/
+  position: relative;
+}
+
+.mid-container {
+  margin: 0 auto;
+}
+
+#banner-content {
+/**  background-color: yellow; **/
+  color: #fff;
+  height: 435px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#banner-content > span {
+  font-size: 5em;
+/**  background-color: blue; **/
+  text-align: center;
+  display: block;
+  text-shadow: 0 1px 1px rgba(255,250,250,.3);
+}
+
+#banner-content span > span:last-child {
+  font-size: .35em;
+  /** background-color: brown; **/
+}
+
+#banner-content span > em {
+  color: rgba(255,20,147,1);
+  text-shadow: none;
+}
+
+.split {
+  height: inherit;
+  width: 50%;
+/**  background-color: blue; **/
+}
+
+.split-auto {
+  width: auto;
+  height: inherit;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+
+#banner-left {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+#banner-right {
+ position: relative;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+#banner-left > span {
+  display: block;
+  width: 130px;
+  height: 125px;
+  background-color: yellow;
+  margin-left: 5.5em;
+  border-radius: 100px;
+}
+
+.rnd-img {
+  display: inline-block;
+  width: inherit;
+  height: inherit;
+  border-radius: 100px;
+}
+
+nav {
+  height: 64px;
+}
+nav a {
+  margin: 0 15px;
+  font-size: 1.2em;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px;
+}
+
+nav a:hover {
+  border-bottom: 2px solid rgba(255,20,147,1);
+}
+
+.no-em {
+ font-style: normal;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+
+
+/***
+** Intro section **
+**/
+
+#intro-container,
+#service-container {
+/*  background-color: yellow; */
+  position: relative;
+}
+
+
+
+#intro,
+#service {
+  /** background-color: green; **/
+   width: 100%;
+}
+
+.pos-abs { position: absolute;    height: inherit;}
+
+#intro header,
+#service header {
+  /** background-color: blue; **/
+  font-size: 4.5em;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 45px;
+  color: rgba(255,20,147,1);
+/*  text-shadow: 10px 5px 3px rgba(255,105,180,1); */
+}
+
+#service header {
+  margin-bottom: 70px;
+}
+
+#intro p {
+  text-align: center;
+  line-height: 30px;
+  font-size: 19px;
+  color: rgb(142,142,142);
+}
+
+
+/***
+** service section **
+**/
+
+#service-main {
+
+background: #ff0084; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #ff0084 , #33001b); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #ff0084 , #33001b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+
+#tile-container {
+  width: 80%;
+  position: absolute;;
+/*  background-color: rgba(255,130,171,.6); */
+  padding: 10px;
+  display: flex;
+  justify-content:space-between;;
+  margin: 0 10%;
+}
+
+.tile-container {
+  width: 270px;
+  padding: 0 35px;
+/**  background-color: violet; **/
+}
+
+.tile-container h1 {
+  text-align: center;
+  font-weight: 400;
+  color: #fff;
+/**  background-color: yellow; **/
+}
+
+.tile-container span.img-cont {
+  display: block;
+  height: 165px;
+  width: 165px;
+  background-color: rgba(255,110,180,.8);
+  border-radius: 100px;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.tile-container > :last-child {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+/**  background-color: yellow; **/
+}
+
+.tile-container > span a {
+  display: block;
+  background-color: rgba(186,85,211,.8);
+  padding: 10px 15px;
+  width: 115px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: padding .3s linear;
+  -ms-transition: padding .3s linear;
+  -webkit-transition: padding .3s linear;
+  -moz-transition: padding .3s linear;
+  -o-transition: padding .3s linear;
+}
+
+.tile-container > span a:hover {
+  padding: 10px 30px;
+}
+
+.tile-container span img {
+  height: inherit;
+  width: 100%;
+  border-radius: 100px;
+}
+
+.tile-container p {
+  text-align: center;
+  line-height: 22px;
+  color: #FFFAFA;
+  padding-top: 10px;
+}
